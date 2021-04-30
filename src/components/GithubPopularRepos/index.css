@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.bg-cont {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.github-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.filters-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.filters-list2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  max-width: 1000px;
+}
